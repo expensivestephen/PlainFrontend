@@ -1,0 +1,206 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2, h3, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Main */
+.main {
+  height: 800px;
+  text-align: center;
+  background-size: cover;
+  color: white;
+  max-width: 100%;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg");
+ 
+}
+
+
+.main .container {
+	position: relative;
+	top: 200px;
+  max-width: 100%;
+  margin: 80px auto;
+}
+
+.btn-main {
+	background: black; 
+  color: white;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  font-family: Arial, sans-serif;
+  line-height: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none; 
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main h1 {
+  font-size: 150px;
+}
+
+.main p {
+  font-size: 18px;
+}
+
+
+/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color: #1c1c1c;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+}
+
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.supporting h3 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+
+}
+
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+  height: 600px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg");
+  text-align: center;
+  background-size: cover;
+  color: white;
+  max-width: 100%;
+}
+
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+ 	padding-top: 50%;
+  padding-bottom: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding:50px 0 0;
+}
+
+.btn {
+  
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  font-family: Arial, sans-serif;
+  line-height: 15px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none; 
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  
+  text-decoration: none;
+  display: inline-block;
+}
+
+.feature container {
+  padding: 100px;
+}
+
+
+/* Footer */
+.footer {
+  height: 600px;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+  .supporting h3 {
+    font-size: 40px;
+  }
+  .supporting h1 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}

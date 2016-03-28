@@ -1,0 +1,39 @@
+INDEX 
+
+Contains Company Logo
+should pop up when app is started
+Javascript animated (Splash/transition)
+Should be up for Five seconds and transitions into login page
+
+RGEISTER/LOG INDEX
+When page is rendered from the index after 5econds
+Company logo slides up
+Login information table pops into rendition in the middle of the page
+When user clicks to enter information (textbox in focus) then company logo up reduces in size (or changes with JS)
+
+MAP PAGE
+Map should cover the entire screen when the page is initialized
+When the page is in focus then the map should cover only 3/4 of the screen to accommodate 1/4 for text/display
+on map, "arrow display" should be replaced with "company logo"
+//Company logo to float in 3D
+
+floating side bar on map page 
+{
+	Should Contain 
+		:round/circular field for user picture
+		:text field to display username
+}
+
+when 
+{map screen in focus
+		hide company logo }
+		else 
+		{
+		render conmpany logo
+			at top of the screen (display: logo + company_name)
+		}	
+Include font ont html doc (<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>)
+stylesheet (font-family: 'Raleway', sans-serif;)
+
+#262238 #00e4af
+
